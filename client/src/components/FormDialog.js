@@ -79,7 +79,7 @@ export default function FormDialog({
         sx={{
           borderRadius: 5,
           maxWidth: "400px",
-        //   width: "400px",
+          //   width: "400px",
           marginLeft: "12px",
           marginRight: "12px",
         }}
@@ -156,7 +156,7 @@ export default function FormDialog({
                     </>
                   )}
                 </div>
-               
+
                 <div className="form-control">
                   {metric ? (
                     <label>Weight (KG) </label>
@@ -199,14 +199,14 @@ export default function FormDialog({
                 />
               </div>
 
-              <div className="form-control form-control-check">
+              {/* <div className="form-control form-control-check">
                 <label>Prefer Not to Say</label>
                 <Switch
                   checked={notSay}
                   onChange={(e) => setNotSay(e.currentTarget.checked)}
                   inputProps={{ "aria-label": "controlled" }}
                 />
-              </div>
+              </div> */}
             </form>
           </>
         </DialogContent>

@@ -166,7 +166,7 @@ function App() {
               variant="contained"
               onClick={newPlan}
             >
-              New Plan
+              Refresh
             </Button>
             <Button
               style={{ minWidth: 160 }}
@@ -206,10 +206,8 @@ function App() {
             ) : (
               <>
                 {chatLog.map((message, index) => (
-                  // <ChatMessage key={index} message={message} />
                   <ChatMessage key={index} message={message} />
                 ))}
-                {/* {console.log(chatLog)} */}
               </>
             )}
           </div>
