@@ -10,6 +10,7 @@ import Loading from "./components/Loading";
 import FormDialog from "./components/FormDialog";
 import ChoicesDialog from "./components/ChoicesDialog";
 import Typography from "@mui/material/Typography";
+import Footer from "./components/Footer";
 
 function App() {
   const [input, setInput] = useState("");
@@ -213,6 +214,7 @@ function App() {
           </div>
         </Box>
       </div>
+      <Footer />
     </div>
   );
 }
