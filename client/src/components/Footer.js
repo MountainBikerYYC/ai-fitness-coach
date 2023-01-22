@@ -1,14 +1,9 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
-import CssBaseline from "@mui/material/CssBaseline";
 import BottomNavigation from "@mui/material/BottomNavigation";
 import BottomNavigationAction from "@mui/material/BottomNavigationAction";
-import RestoreIcon from "@mui/icons-material/Restore";
-import FavoriteIcon from "@mui/icons-material/Favorite";
-import ArchiveIcon from "@mui/icons-material/Archive";
 import Paper from "@mui/material/Paper";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import CopyrightIcon from "@mui/icons-material/Copyright";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Footer = () => {
@@ -24,8 +19,6 @@ const Footer = () => {
 
   return (
     <Box sx={{ pb: 7 }} ref={ref}>
-      <CssBaseline />
-
       <Paper
         sx={{
           position: "fixed",

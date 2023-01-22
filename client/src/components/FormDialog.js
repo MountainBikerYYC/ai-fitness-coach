@@ -78,7 +78,8 @@ export default function FormDialog({
       <Card
         sx={{
           borderRadius: 5,
-          maxWidth: "400px",
+          maxWidth: "300px",
+          maxHeight: "260px",
           //   width: "400px",
           marginLeft: "12px",
           marginRight: "12px",
@@ -89,7 +90,7 @@ export default function FormDialog({
         <CardActionArea>
           <CardMedia
             component="img"
-            height="260"
+            height="200"
             width="260"
             image={"personalize.jpg"}
             alt={"test"}

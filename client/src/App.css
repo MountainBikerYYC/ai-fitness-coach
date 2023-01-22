@@ -137,6 +137,7 @@
 }
 .chat-log {
   text-align: left;
+  margin-bottom: 36px;
 }
 .loading {
   align-items: center;

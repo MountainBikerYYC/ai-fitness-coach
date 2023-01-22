@@ -154,12 +154,12 @@ function App() {
             display="flex"
             direction="row"
             marginTop={2}
-            spacing={3}
+            spacing={2}
             bottom={0}
             left={0}
             right={0}
             width="100%"
-            justifyContent="space-around"
+            justifyContent="space-evenly"
             position="relative"
           >
             <Button
