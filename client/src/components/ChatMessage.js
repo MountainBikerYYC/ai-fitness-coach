@@ -21,7 +21,7 @@ const ChatMessage = ({ message }) => {
                     fill="currentColor"
                   />
                 </svg> */}
-                <img src="ai_image_png" alt="ai img"  width="41"
+                <img src="ai_image.png" alt="ai img"  width="41"
                   height="41"></img>
               </>
             )}
