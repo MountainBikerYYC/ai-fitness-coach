@@ -10,16 +10,19 @@ The project is hosted live on Heroku at
 AI fitness Coach is an app which can generate a personalized fitness plan based on user inputs and goals. It is perfect for beginners who are new to fitness and would like a quick plan tailored to their needs.
 
 # Instruction
-Main page
+
+## Main page
 ![image](https://user-images.githubusercontent.com/77874716/214149839-a5799cac-1bdc-47bc-80aa-22deb3974664.png)
 
 
-Select a workout
+## Select a workout
 ![image](https://user-images.githubusercontent.com/77874716/214149996-c7731271-6c3c-4d81-a261-186f5eeb3ec9.png)
 
-Personalize (Optional)
+## Personalize (Optional)
 ![image](https://user-images.githubusercontent.com/77874716/214150251-9e809d02-1151-4d83-bb33-9a4e50bde3b1.png)
 
+## AI response
+![image](https://user-images.githubusercontent.com/77874716/214157853-e19daa66-32ac-4400-8197-a8999b4be954.png)
 
 
 
